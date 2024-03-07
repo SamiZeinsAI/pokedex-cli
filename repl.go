@@ -76,7 +76,7 @@ func getCommands() map[string]command {
 		},
 		"pokedex": {
 			name:        "pokedex",
-			description: "Provides details of a given pokemon if it has been caught before",
+			description: "Shows pokemon in users pokedex",
 			callback:    pokedex,
 		},
 	}
